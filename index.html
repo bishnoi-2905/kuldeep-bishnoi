@@ -177,18 +177,15 @@
       writing-mode:vertical-rl;
       text-orientation:mixed;
     }
-
-    .dynamic-center{
+      .dynamic-center{
       position:relative;
       padding:10px 10px 12px;
       text-align:center;
-      background:
-        radial-gradient(circle at 20% 30%, rgba(255,255,255,0.18), transparent 60%),
-        radial-gradient(circle at 75% 70%, rgba(255,255,255,0.13), transparent 65%),
-        linear-gradient(135deg,#2f2f2f 25%,transparent 25%) -15px 0/30px 30px,
-        linear-gradient(225deg,#2f2f2f 25%,transparent 25%) -15px 0/30px 30px,
-        linear-gradient(315deg,#2f2f2f 25%,transparent 25%) 0 0/30px 30px,
-        linear-gradient(45deg ,#2f2f2f 25%,#171717 25%) 0 0/30px 30px;
+      background-image:
+        linear-gradient(60deg, rgba(255,255,255,0.08) 12%, transparent 0%, transparent 0%, rgba(255,255,255,0.08) 50%, rgba(255,255,255,0.08) 62%, transparent 10%, transparent 0%),
+        linear-gradient(-60deg, rgba(0,0,0,0.65) 12%, transparent 12%, transparent 0%, rgba(0,0,0,0.65) 50%, rgba(0,0,0,0.65) 62%, transparent 0%, transparent 0%);
+      background-size:44px 80px;
+      background-position:0 0, 22px 40px;
     }
 
     .dynamic-title{
@@ -560,3 +557,4 @@
 </body>
 
 </html>
+
