@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#000000">
+  <meta name="theme-color" content="#000000">
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <title>Booking Details</title>
@@ -573,7 +573,11 @@
     update();
     var timerId = setInterval(update, 1000);
   });
+</script> 
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
 </script>
 </body>
 </html>
-
